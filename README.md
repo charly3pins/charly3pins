@@ -10,7 +10,7 @@ I'm a Software Engineer working <a href="https://github.com/arexio">@arexio</a><
 
 Apart from coding you can find my articles on my website at [charly3pins.dev](https://charly3pins.dev/).
 
-## 🔧 Technologies & Tools
+## 🛠️ Technologies & Tools
 
 ![](https://img.shields.io/badge/Golang-informational?style=flat&logo=go&logoColor=white&color=29BEB0)
 ![](https://img.shields.io/badge/Docker-informational?style=flat&logo=docker&logoColor=white&color=049CEC)
