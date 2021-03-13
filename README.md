@@ -4,7 +4,6 @@ I'm a Software Engineer working <a href="https://github.com/arexio">@arexio</a><
 
 [![Twitter](https://img.shields.io/twitter/follow/charly3pins?label=%40charly3pins&style=social)](https://twitter.com/intent/follow?screen_name=charly3pins)
 ![GitHub](https://img.shields.io/github/followers/charly3pins?label=%40charly3pins&style=social)
-![GitHub](https://img.shields.io/github/followers/charly3pins?label=%40charly3pins&style=social)
 [![Linkedin](https://img.shields.io/badge/Linkedin-Carles%20Fuste-blue?style=social&logo=Linkedin)](https://www.linkedin.com/in/carlesfuste/)
 
 ## &#x270d; Blog & Writing
