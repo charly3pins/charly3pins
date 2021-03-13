@@ -8,7 +8,7 @@ I'm a Software Engineer at <a href="https://github.com/arexio">@arexio</a><img s
 
 ## &#x270d; Blog & Writing
 
-Apart from coding you can find my articles on my website at [charly3pins.dev](https://charly3pins.dev/).
+Apart from coding you can find my articles on my website at **[charly3pins.dev](https://charly3pins.dev)**.
 
 My latest blog post is: **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)**. If you liked, you can subscribe to my [**blog RSS**](https://charly3pins.dev/index.xml) feed.
 
