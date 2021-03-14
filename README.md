@@ -24,4 +24,4 @@ The main tools and technologies that I use everyday are:
 
  ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
 
-<sub>Last update on 13/03/2021.</sub>
+<sub>Last update on 14/03/2021.</sub>
