@@ -10,7 +10,7 @@ I'm a Software Engineer at <a href="https://github.com/arexio">@arexio</a><img s
 
 Apart from coding you can find my articles on my website at **[charly3pins.dev](https://charly3pins.dev)**.
 
-My latest blog post is: **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)**. If you liked, you can subscribe to my [**blog RSS**](https://charly3pins.dev/index.xml) feed.
+My latest blog post is: **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)**. If you liked, you can subscribe to my [**blog RSS**](https://charly3pins.dev/index.xml) feed.
 
 ## 🔧 Tools & Technologies
 
@@ -24,4 +24,4 @@ The main tools and technologies that I use everyday are:
 
  ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
 
-<sub>Last update on 14/03/2021.</sub>
+<sub>Last update on 21/03/2021.</sub>
