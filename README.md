@@ -8,9 +8,14 @@ I'm a Software Engineer at <a href="https://github.com/arexio">@arexio</a><img s
 
 ## &#x270d; Blog & Writing
 
-Apart from coding you can find my articles on my website at **[charly3pins.dev](https://charly3pins.dev)**.
+Apart from coding you can find my articles on my website at **[charly3pins.dev](https://charly3pins.dev)**. The latest ones are:
+- **[The Pomodoro Technique](https://charly3pins.dev/blog/the-pomodoro-technique/)**.
+- **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)**.
+- **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)**.
+- **[Build an awesome GitHub's profile README](https://charly3pins.dev/blog/build-an-awesome-github-profile-readme/)**.
+- **[How to have a multilingual site in Hugo](https://charly3pins.dev/blog/how-to-have-a-multilingual-site-in-hugo/)**.
 
-My latest blog post is: **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)**. If you liked, you can subscribe to my [**blog RSS**](https://charly3pins.dev/index.xml) feed.
+If you liked, you can subscribe to my [**blog RSS**](https://charly3pins.dev/index.xml) feed.
 
 ## 🔧 Tools & Technologies
 
@@ -24,4 +29,4 @@ The main tools and technologies that I use everyday are:
 
  ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
 
-<sub>Last update on 28/03/2021.</sub>
+<sub>Last update on 01/04/2021.</sub>
