@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"io"
 	"log"
 	"os"
+	"strconv"
+	"text/template"
 	"time"
 
 	"github.com/mmcdole/gofeed"
@@ -15,38 +16,101 @@ const (
 	filename = "../README.md"
 )
 
+type Readme struct {
+	BlogURL string
+	Posts   []Post
+}
+
+type Post struct {
+	Title string
+	Link  string
+	Date  string
+}
+
 func main() {
+	tpl := `
+# Hey there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+
+I'm a Software Engineer at <a href="https://github.com/arexio">@arexio</a> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=charly3pins)
+[![RSS](https://img.shields.io/badge/RSS-FFA500?style=for-the-badge&logo=rss&logoColor=white)]({{.BlogURL}})
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlesfuste/)
+
+## 👨‍💻 Blog
+
+Besides writing code, I like to write articles about things that I find interesting. You can read the articles at **[charly3pins.dev]({{.BlogURL}})**
+
+Latest posts:
+{{range .Posts}}- **[{{.Title}}]({{.Link}})** ({{.Date}})
+{{end}}
+
+![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
+
+<sub>Last update on ` + time.Now().Format("02/01/2006") + `</sub>`
+
 	p := gofeed.NewParser()
 	feed, err := p.ParseURL(blogURL + "/index.xml")
 	if err != nil {
 		log.Fatalf("error getting feed: %v", err)
 	}
 
-	posts := ""
+	var posts []Post
 	for i := 0; i < 5; i++ {
-		posts += "- **[" + feed.Items[i].Title + "](" + feed.Items[i].Link + ")**.\n"
+		p := feed.Items[i]
+		post := Post{
+			Title: p.Title,
+			Link:  p.Link,
+			Date:  relativeDate(p.Published),
+		}
+		posts = append(posts, post)
 	}
 
-	hi := "# Hey there! <img src=\"https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif\" width=\"25px\">\n\nI'm a Software Engineer at <a href=\"https://github.com/arexio\">@arexio</a><img src=\"https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif\" width=\"30\">\n\n[![Twitter](https://img.shields.io/twitter/follow/charly3pins?label=%40charly3pins&style=social)](https://twitter.com/intent/follow?screen_name=charly3pins)\n![GitHub](https://img.shields.io/github/followers/charly3pins?label=%40charly3pins&style=social)\n[![Linkedin](https://img.shields.io/badge/Linkedin-Carles%20Fuste-blue?style=social&logo=Linkedin)](https://www.linkedin.com/in/carlesfuste/)"
-	blog := "## &#x270d; Blog & Writing\n\nApart from coding you can find my articles on my website at **[charly3pins.dev](" + blogURL + ")**. The latest ones are:\n" + posts + "\nIf you liked, you can subscribe to my [**blog RSS**](" + blogURL + "/index.xml) feed."
-	tech := "## 🔧 Tools & Technologies\n\nThe main tools and technologies that I use everyday are:\n\n ![](https://img.shields.io/badge/Golang-informational?style=flat&logo=go&logoColor=white&color=29BEB0) ![](https://img.shields.io/badge/Docker-informational?style=flat&logo=docker&logoColor=white&color=049CEC) ![](https://img.shields.io/badge/Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=047ADC)\n\n ![](https://img.shields.io/badge/Git-informational?style=flat&logo=git&logoColor=white&color=F1502F) ![](https://img.shields.io/badge/PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=blue) ![](https://img.shields.io/badge/Jenkins-informational?style=flat&logo=jenkins&logoColor=white&color=D33834)\n\n ![](https://img.shields.io/badge/Linux-informational?style=flat&logo=linux&logoColor=white&color=orange) ![](https://img.shields.io/badge/ZSH-informational?style=flat&logo=gnu-bash&logoColor=white&color=brightgreen)\n\n ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)"
-
-	date := time.Now().Format("02/01/2006")
-	updated := "<sub>Last update on " + date + ".</sub>"
-
-	data := fmt.Sprintf("%s\n\n%s\n\n%s\n\n%s\n", hi, blog, tech, updated)
+	readme := Readme{
+		BlogURL: blogURL,
+		Posts:   posts,
+	}
 
 	file, err := os.Create(filename)
 	if err != nil {
-		log.Println("error creating file", err)
-		return
+		log.Fatalf("error creating file: %v", err)
 	}
 	defer file.Close()
 
-	_, err = io.WriteString(file, data)
-	if err != nil {
-		log.Println("error writing content to file", err)
-		return
+	t := template.Must(template.New("readme").Parse(tpl))
+	if err = t.Execute(file, readme); err != nil {
+		log.Fatalf("error executing template: %v", err)
 	}
-	file.Sync()
+}
+
+func relativeDate(d string) string {
+	dt, err := time.Parse("Mon, 02 Jan 2006", d)
+	if err != nil {
+		log.Fatalf("error parsing post date: %v", err)
+	}
+	now := time.Now().Unix()
+	days := (now - dt.Unix()) / 86400
+	months := (now - dt.Unix()) / 2592000
+
+	if days == 0 { // Published today
+		return d
+	}
+
+	date := ""
+	if days < 31 { // Published in the last 31 days
+		date = strconv.Itoa(int(days))
+		if days == 1 {
+			date += " day"
+		} else {
+			date += " days"
+		}
+	} else {
+		date = strconv.Itoa(int(months))
+		if months == 1 { // Published month(s) ago
+			date += " month"
+		} else {
+			date += " months"
+		}
+	}
+	return fmt.Sprintf("%s ago", date)
 }
