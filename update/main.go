@@ -45,9 +45,7 @@ Latest posts:
 {{range .Posts}}- **[{{.Title}}]({{.Link}})** ({{.Date}})
 {{end}}
 
-![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
-
-<sub>Last update on ` + time.Now().Format("02/01/2006") + `</sub>`
+![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)`
 
 	p := gofeed.NewParser()
 	feed, err := p.ParseURL(blogURL + "/index.xml")
