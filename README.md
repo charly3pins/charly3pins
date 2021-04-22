@@ -12,9 +12,9 @@ I'm a Software Engineer at <a href="https://github.com/arexio">@arexio</a> <img 
 Besides writing code, I like to write articles about things that I find interesting. You can read the articles at **[charly3pins.dev](https://charly3pins.dev)**
 
 Latest posts:
-- **[Getting started with Dotfiles. What they are and why it is important to take care of them.](https://charly3pins.dev/blog/getting-started-with-dotfiles/)** (7 days ago)
-- **[Increase your productivity with Notion](https://charly3pins.dev/blog/increase-your-productivity-with-notion/)** (13 days ago)
-- **[The Pomodoro Technique](https://charly3pins.dev/blog/the-pomodoro-technique/)** (22 days ago)
+- **[Getting started with Dotfiles. What they are and why it is important to take care of them.](https://charly3pins.dev/blog/getting-started-with-dotfiles/)** (8 days ago)
+- **[Increase your productivity with Notion](https://charly3pins.dev/blog/increase-your-productivity-with-notion/)** (14 days ago)
+- **[The Pomodoro Technique](https://charly3pins.dev/blog/the-pomodoro-technique/)** (23 days ago)
 - **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)** (1 month ago)
 - **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)** (1 month ago)
 
