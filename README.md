@@ -13,8 +13,8 @@ I'm a Software Engineer at <a href="https://github.com/arexio">@arexio</a> <img 
 Besides writing code, I like to write articles about things that I find interesting. You can read the articles at **[charly3pins.dev](https://charly3pins.dev)**
 
 Latest posts:
-- **[Increase your productivity with Notion](https://charly3pins.dev/blog/increase-your-productivity-with-notion/)** (19 days ago)
-- **[The Pomodoro Technique](https://charly3pins.dev/blog/the-pomodoro-technique/)** (28 days ago)
+- **[Increase your productivity with Notion](https://charly3pins.dev/blog/increase-your-productivity-with-notion/)** (20 days ago)
+- **[The Pomodoro Technique](https://charly3pins.dev/blog/the-pomodoro-technique/)** (29 days ago)
 - **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)** (1 month ago)
 - **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)** (1 month ago)
 - **[Build an awesome GitHub's profile README](https://charly3pins.dev/blog/build-an-awesome-github-profile-readme/)** (2 months ago)
