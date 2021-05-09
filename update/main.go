@@ -55,7 +55,7 @@ Latest posts:
 	}
 
 	var posts []Post
-	for i := 0; i < 5; i++ {
+	for i := 0; i < 10; i++ {
 		p := feed.Items[i]
 		post := Post{
 			Title: p.Title,
