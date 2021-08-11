@@ -18,7 +18,7 @@ Latest posts:
 - **[The Pomodoro Technique](https://charly3pins.dev/blog/the-pomodoro-technique/)** (4 months ago)
 - **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)** (4 months ago)
 - **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)** (5 months ago)
-- **[Build an awesome GitHub's profile README](https://charly3pins.dev/blog/build-an-awesome-github-profile-readme/)** (5 months ago)
+- **[Build an awesome GitHub's profile README](https://charly3pins.dev/blog/build-an-awesome-github-profile-readme/)** (6 months ago)
 - **[How to have a multilingual site in Hugo](https://charly3pins.dev/blog/how-to-have-a-multilingual-site-in-hugo/)** (6 months ago)
 - **[How to add Google Analytics to your Hugo site](https://charly3pins.dev/blog/how-to-add-google-analytics-to-your-hugo-site/)** (8 months ago)
 - **[Raspberry Pi media player with Plex, Transmission, Sonarr, Bazarr and Jackett](https://charly3pins.dev/blog/raspberry-pi-media-player-with-plex-transmission-sonarr-bazarr-and-jackett/)** (9 months ago)
