@@ -22,7 +22,7 @@ Latest posts:
 - **[How to have a multilingual site in Hugo](https://charly3pins.dev/blog/how-to-have-a-multilingual-site-in-hugo/)** (6 months ago)
 - **[How to add Google Analytics to your Hugo site](https://charly3pins.dev/blog/how-to-add-google-analytics-to-your-hugo-site/)** (8 months ago)
 - **[Raspberry Pi media player with Plex, Transmission, Sonarr, Bazarr and Jackett](https://charly3pins.dev/blog/raspberry-pi-media-player-with-plex-transmission-sonarr-bazarr-and-jackett/)** (9 months ago)
-- **[Understanding Semantic Versioning 2.0 (SemVer)](https://charly3pins.dev/blog/understanding-semantic-versionin-2.0-semver/)** (9 months ago)
+- **[Understanding Semantic Versioning 2.0 (SemVer)](https://charly3pins.dev/blog/understanding-semantic-versionin-2.0-semver/)** (10 months ago)
 
 
 ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
