@@ -14,7 +14,7 @@ Besides writing code, I like to write articles about things that I find interest
 
 Latest posts:
 - **[Learn how to use the embed package in Go by building a web page easily](https://charly3pins.dev/blog/learn-how-to-use-the-embed-package-in-go-by-building-a-web-page-easily/)** (3 months ago)
-- **[What I learned defining the Selection Process for a Software Engineer in the startup where I work](https://charly3pins.dev/blog/what-i-learned-defining-the-selection-process-for-a-software-engineer-in-the-startup-where-i-work/)** (6 months ago)
+- **[What I learned defining the Selection Process for a Software Engineer in the startup where I work](https://charly3pins.dev/blog/what-i-learned-defining-the-selection-process-for-a-software-engineer-in-the-startup-where-i-work/)** (7 months ago)
 - **[Increase your productivity with Notion](https://charly3pins.dev/blog/increase-your-productivity-with-notion/)** (7 months ago)
 - **[The Pomodoro Technique](https://charly3pins.dev/blog/the-pomodoro-technique/)** (8 months ago)
 - **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)** (8 months ago)
@@ -22,7 +22,7 @@ Latest posts:
 - **[Build an awesome GitHub's profile README](https://charly3pins.dev/blog/build-an-awesome-github-profile-readme/)** (9 months ago)
 - **[How to have a multilingual site in Hugo](https://charly3pins.dev/blog/how-to-have-a-multilingual-site-in-hugo/)** (9 months ago)
 - **[How to add Google Analytics to your Hugo site](https://charly3pins.dev/blog/how-to-add-google-analytics-to-your-hugo-site/)** (12 months ago)
-- **[Raspberry Pi media player with Plex, Transmission, Sonarr, Bazarr and Jackett](https://charly3pins.dev/blog/raspberry-pi-media-player-with-plex-transmission-sonarr-bazarr-and-jackett/)** (12 months ago)
+- **[Raspberry Pi media player with Plex, Transmission, Sonarr, Bazarr and Jackett](https://charly3pins.dev/blog/raspberry-pi-media-player-with-plex-transmission-sonarr-bazarr-and-jackett/)** (13 months ago)
 
 
 ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
