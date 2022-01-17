@@ -22,7 +22,7 @@ Latest posts:
 - **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)** (10 months ago)
 - **[Build an awesome GitHub's profile README](https://charly3pins.dev/blog/build-an-awesome-github-profile-readme/)** (11 months ago)
 - **[How to have a multilingual site in Hugo](https://charly3pins.dev/blog/how-to-have-a-multilingual-site-in-hugo/)** (11 months ago)
-- **[How to add Google Analytics to your Hugo site](https://charly3pins.dev/blog/how-to-add-google-analytics-to-your-hugo-site/)** (13 months ago)
+- **[How to add Google Analytics to your Hugo site](https://charly3pins.dev/blog/how-to-add-google-analytics-to-your-hugo-site/)** (14 months ago)
 
 
 ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
