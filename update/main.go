@@ -29,9 +29,28 @@ type Post struct {
 
 func main() {
 	tpl := `
-# Hey there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
-
-I'm the Engineering Director at <a href="https://github.com/arexio">@arexio</a> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+<a href="https://github.com/charly3pins">
+	<img align="center" width="49%" src="./header.svg" />
+</a>
+<br/>
+<a href="https://github.com/charly3pins">
+	<img align="center" width="49%" src="./repositories.svg" />
+</a>
+<a href="https://github.com/charly3pins">
+	<img align="center" width="49%" src="./acti_comm.svg" />
+</a>
+<a href="https://github.com/charly3pins">
+	<img align="center" width="49%" src="./iso_calender.svg" />
+</a>
+<a href="https://github.com/charly3pins">
+	<img align="center" width="49%" src="./issue_pr_lang.svg" />
+</a>
+<a href="https://github.com/charly3pins">
+	<img align="center" width="49%" src="./github-habits.svg" />
+</a>
+<a href="https://github.com/charly3pins">
+	<img align="center" width="49%" src="./achievements.svg" />
+</a>
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=charly3pins)
 [![RSS](https://img.shields.io/badge/RSS-FFA500?style=for-the-badge&logo=rss&logoColor=white)]({{.BlogURL}})
