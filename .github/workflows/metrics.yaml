@@ -1,10 +1,11 @@
-name: Metrics
+name: metrics
+
 on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit (optional)
-  workflow_dispatch:
-  push: {branches: ["main"]}
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 * * * *'
 
 jobs:
 
