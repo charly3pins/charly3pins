@@ -14,6 +14,11 @@ import (
 const (
 	blogURL  = "https://charly3pins.dev"
 	filename = "../README.md"
+
+	hoursDay  = 24
+	daysWeek  = 7
+	daysMonth = 31
+	daysYear  = 365
 )
 
 type Readme struct {
@@ -104,17 +109,21 @@ Latest posts:
 }
 
 func relativeDate(d string) string {
-	dt, err := time.Parse("Mon, 02 Jan 2006", d)
+	published, err := time.Parse("Mon, 02 Jan 2006", d)
 	if err != nil {
 		log.Fatalf("error parsing post date: %v", err)
 	}
-	now := time.Now().Unix()
-	days := (now - dt.Unix()) / 86400
-	months := (now - dt.Unix()) / 2592000
+	now := time.Now()
+	difference := now.UTC().Sub(published.UTC())
 
-	if days == 0 { // Published today
+	if difference.Hours()/hoursDay == 0 { // Published today
 		return d
 	}
+
+	days := int64(difference.Hours() / hoursDay)
+	weeks := int64(difference.Hours() / hoursDay / daysWeek)
+	months := int64(difference.Hours() / hoursDay / daysMonth)
+	years := int64(difference.Hours() / hoursDay / daysYear)
 
 	date := ""
 	if days < 31 { // Published in the last 31 days
@@ -124,12 +133,26 @@ func relativeDate(d string) string {
 		} else {
 			date += " days"
 		}
-	} else {
+	} else if weeks < 4 { // Published in the last 4 weeks
+		date = strconv.Itoa(int(weeks))
+		if weeks == 1 {
+			date += " week"
+		} else {
+			date += " weeks"
+		}
+	} else if months < 12 { // Published in the last 12 months
 		date = strconv.Itoa(int(months))
-		if months == 1 { // Published month(s) ago
+		if months == 1 {
 			date += " month"
 		} else {
 			date += " months"
+		}
+	} else { // Published in the last year(s)
+		date = strconv.Itoa(int(years))
+		if years == 1 {
+			date += " year"
+		} else {
+			date += " years"
 		}
 	}
 	return fmt.Sprintf("%s ago", date)
