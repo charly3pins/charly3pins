@@ -109,7 +109,9 @@ func relativeDate(d string) string {
 	date := ""
 	if days < 31 { // Published in the last 31 days
 		date = strconv.Itoa(int(days))
-		if days == 1 {
+		if days == 0 {
+			return "Today"
+		} else if days == 1 {
 			date += " day"
 		} else {
 			date += " days"
