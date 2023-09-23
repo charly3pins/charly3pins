@@ -8,6 +8,7 @@ Engineering at [Bankable.com](https://bnkbl.com/), a global architect of innovat
 Besides writing code, I like to write articles about things that I find interesting. You can read the articles at **[charly3pins.dev](https://charly3pins.dev)**
 
 Latest posts:
+- **[I generated my CV using Go templates](https://charly3pins.dev/blog/i-generated-my-cv-using-go-templates/)** (0 days ago)
 - **[Tech Book Club](https://charly3pins.dev/blog/tech-book-club/)** (5 months ago)
 - **[Go project layout with Clean architectures and DDD](https://charly3pins.dev/blog/go-project-layout-with-clean-architecures-and-ddd/)** (1 year ago)
 - **[Learn how to use the embed package in Go by building a web page easily](https://charly3pins.dev/blog/learn-how-to-use-the-embed-package-in-go-by-building-a-web-page-easily/)** (2 years ago)
@@ -17,7 +18,6 @@ Latest posts:
 - **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)** (2 years ago)
 - **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)** (2 years ago)
 - **[Build an awesome GitHub's profile README](https://charly3pins.dev/blog/build-an-awesome-github-profile-readme/)** (2 years ago)
-- **[How to have a multilingual site in Hugo](https://charly3pins.dev/blog/how-to-have-a-multilingual-site-in-hugo/)** (2 years ago)
 
 
 ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
