@@ -9,7 +9,7 @@ Besides writing code, I like to write articles about things that I find interest
 
 Latest posts:
 - **[I generated my CV using Go templates](https://charly3pins.dev/blog/i-generated-my-cv-using-go-templates/)** (1 month ago)
-- **[Tech Book Club](https://charly3pins.dev/blog/tech-book-club/)** (6 months ago)
+- **[Tech Book Club](https://charly3pins.dev/blog/tech-book-club/)** (7 months ago)
 - **[Go project layout with Clean architectures and DDD](https://charly3pins.dev/blog/go-project-layout-with-clean-architecures-and-ddd/)** (1 year ago)
 - **[Learn how to use the embed package in Go by building a web page easily](https://charly3pins.dev/blog/learn-how-to-use-the-embed-package-in-go-by-building-a-web-page-easily/)** (2 years ago)
 - **[What I learned defining the Selection Process for a Software Engineer in the startup where I work](https://charly3pins.dev/blog/what-i-learned-defining-the-selection-process-for-a-software-engineer-in-the-startup-where-i-work/)** (2 years ago)
