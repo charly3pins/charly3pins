@@ -8,7 +8,7 @@ Engineering at [Bankable.com](https://bnkbl.com/), a global architect of innovat
 Besides writing code, I like to write articles about things that I find interesting. You can read the articles at **[charly3pins.dev](https://charly3pins.dev)**
 
 Latest posts:
-- **[Why Go?](https://charly3pins.dev/blog/why-go/)** (7 days ago)
+- **[Why Go?](https://charly3pins.dev/blog/why-go/)** (8 days ago)
 - **[I generated my CV using Go templates](https://charly3pins.dev/blog/i-generated-my-cv-using-go-templates/)** (2 months ago)
 - **[Tech Book Club](https://charly3pins.dev/blog/tech-book-club/)** (7 months ago)
 - **[Go project layout with Clean architectures and DDD](https://charly3pins.dev/blog/go-project-layout-with-clean-architecures-and-ddd/)** (2 years ago)
