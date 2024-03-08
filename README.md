@@ -17,7 +17,7 @@ Latest posts:
 - **[Increase your productivity with Notion](https://charly3pins.dev/blog/increase-your-productivity-with-notion/)** (2 years ago)
 - **[The Pomodoro Technique](https://charly3pins.dev/blog/the-pomodoro-technique/)** (2 years ago)
 - **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)** (2 years ago)
-- **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)** (2 years ago)
+- **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)** (3 years ago)
 
 
 ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
