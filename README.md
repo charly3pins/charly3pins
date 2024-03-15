@@ -19,6 +19,7 @@ Latest posts:
 - **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)** (3 years ago)
 - **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)** (3 years ago)
 
+
 ## My readings 📚
 
 You can find  the list of books I am reading, have read or plan to read in [this repo](https://github.com/charly3pins/readings) or in [this section](https://charly3pins.dev/readings).

@@ -46,6 +46,16 @@ Latest posts:
 {{range .Posts}}- **[{{.Title}}]({{.Link}})** ({{.Date}})
 {{end}}
 
+## My readings 📚
+
+You can find  the list of books I am reading, have read or plan to read in [this repo](https://github.com/charly3pins/readings) or in [this section](https://charly3pins.dev/readings).
+
+Currently I am reading:
+
+* [Software Engineering at Google: Lessons Learned from Programming Over Time](https://amzn.to/3TgWORq) by _Titus Winters, Tom Manshreck, Hyrum Wright_
+* [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](https://amzn.to/3TD3jPG) by _Gene Kim, Kevin Behr, George Spafford_
+* [Las 48 leyes del poder](https://amzn.to/3IEvibx) by _Robert Greene, Joost Elffers_
+
 ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
 
 ## Keep in touch 👨‍💻
