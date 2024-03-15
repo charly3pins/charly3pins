@@ -19,6 +19,14 @@ Latest posts:
 - **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)** (3 years ago)
 - **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)** (3 years ago)
 
+## My readings 📚
+
+You can find  the list of books I am reading, have read or plan to read in [this repo](https://github.com/charly3pins/readings) or in [this section](https://charly3pins.dev/readings).
+
+- Currently reading
+* [Software Engineering at Google: Lessons Learned from Programming Over Time](https://amzn.to/3TgWORq) by _Titus Winters, Tom Manshreck, Hyrum Wright_
+* [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](https://amzn.to/3TD3jPG) by _Gene Kim, Kevin Behr, George Spafford_
+* [Las 48 leyes del poder](https://amzn.to/3IEvibx) by _Robert Greene, Joost Elffers_
 
 ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
 
