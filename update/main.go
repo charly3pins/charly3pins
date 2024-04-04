@@ -55,6 +55,7 @@ Currently I am reading:
 * [Software Engineering at Google: Lessons Learned from Programming Over Time](https://amzn.to/3TgWORq) by _Titus Winters, Tom Manshreck, Hyrum Wright_
 * [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](https://amzn.to/3TD3jPG) by _Gene Kim, Kevin Behr, George Spafford_
 * [Las 48 leyes del poder](https://amzn.to/3IEvibx) by _Robert Greene, Joost Elffers_
+* [Un paso por delante de Wall Street: Cómo utilizar lo que ya sabes para ganar dinero en bolsa](https://amzn.to/3VLPIHj) by _Peter Lynch_
 
 ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
 
