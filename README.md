@@ -8,16 +8,16 @@ Engineering at [Bankable.com](https://bnkbl.com/), a global architect of innovat
 Besides writing code, I like to write articles about things that I find interesting. You can read the articles at **[charly3pins.dev](https://charly3pins.dev)**
 
 Latest posts:
-- **[Why Go?](https://charly3pins.dev/blog/why-go/)** (3 months ago)
-- **[I generated my CV using Go templates](https://charly3pins.dev/blog/i-generated-my-cv-using-go-templates/)** (5 months ago)
-- **[Tech Book Club](https://charly3pins.dev/blog/tech-book-club/)** (10 months ago)
-- **[Go project layout with Clean architectures and DDD](https://charly3pins.dev/blog/go-project-layout-with-clean-architecures-and-ddd/)** (2 years ago)
-- **[Learn how to use the embed package in Go by building a web page easily](https://charly3pins.dev/blog/learn-how-to-use-the-embed-package-in-go-by-building-a-web-page-easily/)** (2 years ago)
-- **[What I learned defining the Selection Process for a Software Engineer in the startup where I work](https://charly3pins.dev/blog/what-i-learned-defining-the-selection-process-for-a-software-engineer-in-the-startup-where-i-work/)** (2 years ago)
-- **[Increase your productivity with Notion](https://charly3pins.dev/blog/increase-your-productivity-with-notion/)** (2 years ago)
-- **[The Pomodoro Technique](https://charly3pins.dev/blog/the-pomodoro-technique/)** (2 years ago)
-- **[Automate Your GitHub Profile README with Go and GitHub Actions](https://charly3pins.dev/blog/automate-your-github-profile-readme-with-go-and-github-actions/)** (3 years ago)
-- **[My productivity setup for VS Code](https://charly3pins.dev/blog/my-productivity-setup-for-vs-code/)** (3 years ago)
+- **[¿Por qué usar Go(lang)?](https://charly3pins.dev/blog/por-que-usar-go/)**
+- **[He generado mi CV usando Go templates](https://charly3pins.dev/blog/he-generado-my-cv-usando-go-templates/)**
+- **[Club de Lectura de Tecnología](https://charly3pins.dev/blog/club-de-lectura-de-tecnologia/)**
+- **[Estructura de proyecto para Go con Arquitecturas Limpias y DDD](https://charly3pins.dev/blog/estructura-de-proyecto-para-go-con-arquitecturas-limpias-y-ddd/)**
+- **[Aprende a utilizar el paquete "embed" de Go y crea una página web fácilmente](https://charly3pins.dev/blog/aprende-a-utilizar-el-paquete-embed-de-go-y-crea-una-pagina-web-facilmente/)**
+- **[Qué aprendí definiendo el Proceso de Selección para Ingeniero de Software en la startup donde trabajo](https://charly3pins.dev/blog/que-aprendi-definiendo-el-proceso-de-seleccion-para-ingenierio-de-software-en-la-startup-donde-trabajo/)**
+- **[Aumenta tu productividad con Notion](https://charly3pins.dev/blog/aumenta-tu-prodictividad-con-notion/)**
+- **[La Técnica Pomodoro](https://charly3pins.dev/blog/la-tecnica-pomodoro/)**
+- **[Automatiza el README para tu perfil de GitHub con Go y GitHub Actions](https://charly3pins.dev/blog/automatiza-el-readme-para-tu-perfil-de-github-con-go-y-github-actions/)**
+- **[Mi configuración para una alta productividad usando VS Code](https://charly3pins.dev/blog/mi-configuracion-para-una-alta-productividad-usando-vs-code/)**
 
 
 ## My readings 📚
@@ -29,6 +29,7 @@ Currently I am reading:
 * [Software Engineering at Google: Lessons Learned from Programming Over Time](https://amzn.to/3TgWORq) by _Titus Winters, Tom Manshreck, Hyrum Wright_
 * [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](https://amzn.to/3TD3jPG) by _Gene Kim, Kevin Behr, George Spafford_
 * [Las 48 leyes del poder](https://amzn.to/3IEvibx) by _Robert Greene, Joost Elffers_
+* [Un paso por delante de Wall Street: Cómo utilizar lo que ya sabes para ganar dinero en bolsa](https://amzn.to/3VLPIHj) by _Peter Lynch_
 
 ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
 

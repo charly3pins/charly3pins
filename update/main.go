@@ -43,7 +43,7 @@ Engineering at [Bankable.com](https://bnkbl.com/), a global architect of innovat
 Besides writing code, I like to write articles about things that I find interesting. You can read the articles at **[charly3pins.dev]({{.BlogURL}})**
 
 Latest posts:
-{{range .Posts}}- **[{{.Title}}]({{.Link}})** ({{.Date}})
+{{range .Posts}}- **[{{.Title}}]({{.Link}})**
 {{end}}
 
 ## My readings 📚
