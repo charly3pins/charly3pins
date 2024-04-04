@@ -21,6 +21,7 @@ jobs:
           cd ${GITHUB_WORKSPACE}/update/
           go run main.go
       - name: deploy changes
+        if: steps.verify_diff.outputs.changed == 'true'
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
