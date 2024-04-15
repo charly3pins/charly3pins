@@ -30,6 +30,7 @@ Currently I am reading:
 * [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](https://amzn.to/3TD3jPG) by _Gene Kim, Kevin Behr, George Spafford_
 * [Un paso por delante de Wall Street: Cómo utilizar lo que ya sabes para ganar dinero en bolsa](https://amzn.to/3VLPIHj) by _Peter Lynch_
 * [Mastering Vim Quickly: From WTF to OMG in no time](https://amzn.to/3Jaiqu0) by _Jovica Ilic_
+* [Design Patterns: Elements of Reusable Object-Oriented Software](https://amzn.to/3Visatg) by _Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides_
 * [La semana laboral de 4 horas](https://amzn.to/4aCAU2u) by _Timothy Ferriss_
 
 ![](https://media.giphy.com/media/OPYnG3Xf8zLag/giphy.gif)
